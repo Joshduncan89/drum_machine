@@ -53,7 +53,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #4b2c27;
-  font-family: "Sintony", sans-serif;
+  font-family: 'Sintony', sans-serif;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -65,7 +65,7 @@ body {
 
 h1 {
   color: #f3de8a;
-  font-family: "MuseoModerno", cursive;
+  font-family: 'MuseoModerno', cursive;
   text-transform: uppercase;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -81,8 +81,8 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 3px solid #F3FFDE;
-  height: 100vh
+  border: 3px solid #f3ffde;
+  height: 100vh;
 }
 
 .bottom {
@@ -92,7 +92,7 @@ h1 {
   padding: 1em;
   background-color: #c9d585;
   color: #272838;
-  font-family: "Sintony", sans-serif;
+  font-family: 'Sintony', sans-serif;
   width: 10em;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -100,3 +100,4 @@ h1 {
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
+}

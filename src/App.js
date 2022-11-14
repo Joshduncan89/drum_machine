@@ -1,7 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import drumKeys from './drumKeys.js';
+import drumKeys from './drum_keys.js';
 
 class App extends React.Component {
   constructor(props) {
