@@ -2,12 +2,14 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import drumKeys from './drum_keys.js';
+import Lottie from 'lottie-react';
+import musicNote from './image/musicNote.json';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      kitDisplay: 'press a key',
+      kitDisplay: 'PLAY',
       kitCode: 0,
     };
     this.handleEntry = this.handleEntry.bind(this);
@@ -56,9 +58,12 @@ class App extends React.Component {
 
   render() {
     return (
+      // <div className='cont'>
+
+      // </div>
       <div className="container">
         <div className="top">
-          <h1>Drum Machine</h1>
+          <h1 style={{ fontFamily: 'Zen Dots' }}>Virtual Drums</h1>
         </div>
         <div className="grid">
           <div
@@ -115,6 +120,9 @@ class App extends React.Component {
           >
             C
           </div>
+        </div>
+        <div style={{ width: '50%', position: 'absolute' }}>
+          <Lottie animationData={musicNote} loop={true} />
         </div>
         <div className="bottom">{this.state.kitDisplay}</div>
       </div>

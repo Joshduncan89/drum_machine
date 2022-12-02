@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 }
 .App-logo {
@@ -30,14 +30,19 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&amp');
 @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@700&amp;display=swap');
 
 body {
-  background-color: #272838;
+  background-color: #212529;
   padding: 1em;
+}
+
+.top {
+  font-famliy: 'Zen Dots', cursive;
 }
 
 .grid {
@@ -54,13 +59,12 @@ body {
   justify-content: center;
   color: #4b2c27;
   font-family: 'Sintony', sans-serif;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 h1 {
